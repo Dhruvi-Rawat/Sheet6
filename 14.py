@@ -1,0 +1,5 @@
+A = input("Enter string: ")
+B = int(input("Enter ASCII code: "))
+ch = chr(B)
+pos = A.find(ch)
+print(pos if pos != -1 else -1)
